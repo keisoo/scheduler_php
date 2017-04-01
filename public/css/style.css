@@ -1,0 +1,315 @@
+html{
+	position: relative;
+	min-height: 100%;
+
+}
+
+.unmask-box{
+	font-size: 13px;
+	font-style: none;
+
+}
+
+#check_login{
+	margin-top: 20px;
+}
+
+
+.navbar-default{
+	background-color: #24272c;
+
+}
+
+.navbar-default .navbar-nav>li>a.active{
+	color: #e32629;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #e32629;
+}
+
+.navbar-default{
+	border-bottom: 3px solid #e32629;
+}
+
+body{
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+
+.footer-nav{
+	border-top: 3px solid #e32629;
+	background-color: #24272c;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-radius: 0px;
+	width: 100%;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+}
+
+.copy{
+	color: #e32629;
+}
+
+.img-placeholder{
+	border: 2px solid #303030;
+	border-radius: 15px;
+	
+	max-width: 250px;
+}
+
+.event-list{
+	margin-bottom: 10px;
+}
+
+
+.btn.btn-primary{
+	background-color: #ba2426;
+	border: 1px solid #ba2426;
+}
+
+.btn.btn-warning{
+	background-color: #eea236;
+	border: 1px solid #eea236;
+}
+
+.btn.btn-success{
+	background-color: #4cae4c;
+	border: 1px solid #4cae4c;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #e32629;	
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+
+li.active.pages button{
+	background-color: #ba2426;
+	color: white;
+}
+
+.container.calen{
+	background-color: #fff;
+	border: 1px solid #999999;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#calendarView button.btn.btn-default{
+	background-color: rgba(204,204,204,0.5);
+
+}
+
+#calendarView div.row{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+@media(min-width: 0px) and (max-width: 499px){
+	.seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1,
+  .seven-cols .col-xs-1  {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+  .prevnextButton { display: none; }
+  #currentYear, #brandNameLarge{
+  	display:none;
+  }
+  #currentMonth{
+  	font-size: 15px;
+  }
+  #calendarView button.btn{
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		border: 0px;
+		font-size: 15px;
+		font-family: 'arial narrow';
+	}
+
+
+}
+
+@media(min-width: 500px) and (max-width: 767px){
+	.seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1,
+  .seven-cols .col-xs-1  {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+  .prevnextButton { display: none; }
+  #currentYear, #brandNameLarge{
+  	display:none;
+  }
+  #calendarView button.btn{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border: 0px;
+		font-size: 20px;
+		font-family: 'arial narrow';
+	}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1,
+  .seven-cols .col-xs-1  {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+  #currentYear, #brandNameLarge{
+  	display:none;
+  }
+  	#calendarView button.btn{
+		width: 75px;
+		height: 75px;
+		border-radius: 50%;
+		border: 0px;
+		font-size: 20px;
+		font-family: 'arial narrow';
+	}
+}
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1,
+  .seven-cols .col-xs-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+  #brandNameSmall{
+  	display: none;
+  }
+  #calendarView button.btn{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		border: 0px;
+		font-size: 20px;
+		font-family: 'arial narrow';
+	}
+}
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1,
+  .seven-cols .col-xs-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+  #brandNameSmall{
+  	display: none;
+  }
+  #calendarView button.btn{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		border: 0px;
+		font-size: 20px;
+		font-family: 'arial narrow';
+	}
+}
+
+.preview:hover{
+   filter: grayscale(0%);
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   -ms-filter: grayscale(0%);
+   -o-filter: grayscale(0%);
+}
+
+.preview{
+	   filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+}
+.welcome{
+	background-image: url("http:/irtc/public/images/welcome.png");
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-family: Arial;
+}
+.welcome>a>i{
+	height: 50px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 100px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(1) {
+	top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+	top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  	top: 1px;
+}
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+	background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+	background-color: transparent;
+
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+	background-color: #e32629;
+	top: 0px;
+	transform: rotate(45deg);
+
+}
+.navbar-toggle.active .icon-bar:nth-of-type(4) {
+	background-color: #e32629;
+	top: -6px;
+	transform: rotate(-45deg);
+
+}
+
+.navbar-default .navbar-toggle.active .navbar-toggle{
+	background-color:transparent;
+}
+
+.leftrightarrow{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 0px;
+	font-size: 20px;
+}
+
+a:hover{
+	cursor: pointer;
+}
